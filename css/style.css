@@ -45,7 +45,7 @@ img {
   font-weight: 400;
   font-size: 72px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .header a {
@@ -57,7 +57,7 @@ img {
   font-weight: 400;
   font-size: 24px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .slide-wrapper {
@@ -163,14 +163,18 @@ img {
   text-align: center;
   margin-top: 60px;
 }
+
 .call-to-action a:hover {
+  border-radius: 30px;
   background-color: #ff3d68;
+  padding: 20px 70px 20px 75px;
+
 }
 
 .footer {
   text-align: center;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .footer_redes ul li {
@@ -188,7 +192,7 @@ img {
 .footer_redes img {
   max-width: 100%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .footer_info a {
@@ -202,8 +206,7 @@ img {
 }
 
 .footer_redes ul li a:hover {
-  filter: invert(35%) sepia(49%) saturate(3794%) hue-rotate(326deg)
-    brightness(106%) contrast(101%);
+  filter: invert(35%) sepia(49%) saturate(3794%) hue-rotate(326deg) brightness(106%) contrast(101%);
 }
 
 .tools {
